@@ -6,7 +6,7 @@ buildDiscarder(logRotator(numToKeepStr: '5'))
 }
 
 environment {
-DOCKERHUB_CREDENTIALS = credentials('idrisshm')
+DOCKERHUB_CREDENTIALS = credentials('peter13625')
 }
 
 stages {
